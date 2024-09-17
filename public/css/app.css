@@ -1,0 +1,166 @@
+/* resources/css/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px; 
+}
+
+.shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.transition {
+    transition: background-color 0.3s ease;
+}
+
+.bg-blue-500 {
+    background-color: #3b82f6; 
+}
+
+.bg-blue-600 {
+    background-color: #2563eb; 
+}
+
+.bg-red-500 {
+    background-color: #ef4444; 
+}
+
+.bg-red-600 {
+    background-color: #dc2626; 
+}
+
+.bg-gray-500 {
+    background-color: #6b7280; 
+}
+
+.bg-gray-600 {
+    background-color: #4b5563; 
+}
+
+.text-gray-600 {
+    color: #4b5563;
+}
+
+.text-gray-800 {
+    color: #1f2937; 
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem; 
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.list-disc {
+    list-style-type: disc;
+}
+
+.ml-5 {
+    margin-left: 1.25rem; 
+}
+
+.m-6 {
+    margin: 1.5rem; 
+}
+
+.p-6 {
+    padding: 1.5rem; 
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-128 {
+    height: 29rem; 
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-x-4 > * + * {
+    margin-left: 1rem; 
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #ffffff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid #e5e7eb;
+}
+
+header a {
+    color: #1f2937; 
+}
+
+header a:hover {
+    color: #2563eb;
+    text-decoration: underline; 
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem; 
+}
+
+footer {
+    background-color: #ffffff; 
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #e5e7eb; 
+    padding: 1rem; 
+}
+
+footer p {
+    color: #4b5563; 
+}
