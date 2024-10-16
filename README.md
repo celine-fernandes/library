@@ -30,7 +30,7 @@ Ce projet est une application web construite avec Laravel pour la gestion de liv
 
 1. Clonez le projet :
     ```bash
-    git clone https://github.com/celine-fernandes/library.com
+    git clone https://github.com/celine-fernandes/library
     ```
 
 2. Installez les dépendances avec Composer :
